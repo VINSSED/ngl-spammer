@@ -2,7 +2,7 @@ const crypto = require("crypto");
 
 let counter = 0;
 
-const sendMessage = async (username, message) => {
+const sendMessage = async (sskandal_,p) => {
     while (true) {
         try {
             const date = new Date();
